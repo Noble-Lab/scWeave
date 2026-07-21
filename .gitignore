@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / cached
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Installer / lock caches
+pip-wheel-metadata/
+.uv/
+
+# Type / lint / test caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights, data, and run artifacts
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+*.hdf5
+data/
+checkpoints/
+logs/
+runs/
+outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
