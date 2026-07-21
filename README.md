@@ -1,6 +1,4 @@
-# scWeave
-
-**scWeave: A deep learning model that bidirectionally translates between gene expression and chromatin structure at single-cell resolution**
+# scWeave: A deep learning model that bidirectionally translates between gene expression and chromatin structure at single-cell resolution
 
 Chromatin structure and gene expression are intimately linked, yet characterizing how the two covary has proven challenging, primarily because the two modalities are rarely measured in the same cells.
 Recently, single-cell co-assay protocols have enabled simultaneous profiling of both modalities within the same cells, but these experiments remain costly and technically challenging.
