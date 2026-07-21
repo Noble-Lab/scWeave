@@ -29,7 +29,7 @@ All dependencies are installed automatically (see `pyproject.toml`).
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/G-Murtaza/scWeave.git
+git clone https://github.com/Noble-Lab/scWeave.git
 cd scWeave
 ```
 
@@ -283,6 +283,18 @@ print(result["best_checkpoint_path"])
 (with defaults matching the paper), plus training options such as `max_epochs`,
 `devices`, and `strategy` (e.g. `"ddp"` for multi-GPU). The returned checkpoint is
 loaded for inference with `scWeave.load(...)`.
+
+---
+
+## Examples
+
+End-to-end example notebooks will live in [`examples/`](examples):
+- [`examples/inference.ipynb`](examples/inference.ipynb) — load a trained model,
+  prepare inputs, and run prediction and cross-modal matching.
+- [`examples/training.ipynb`](examples/training.ipynb) — prepare a dataset and
+  train scWeave from scratch.
+
+Coming soon!
 
 ---
 

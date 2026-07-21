@@ -43,9 +43,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/G-Murtaza/scWeave"
-Repository = "https://github.com/G-Murtaza/scWeave"
-Issues = "https://github.com/G-Murtaza/scWeave/issues"
+Homepage = "https://github.com/Noble-Lab/scWeave"
+Repository = "https://github.com/Noble-Lab/scWeave"
+Issues = "https://github.com/Noble-Lab/scWeave/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
