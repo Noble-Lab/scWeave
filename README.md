@@ -93,9 +93,10 @@ model = scWeave.load(path)
 
 ## Inference
 
-See [`docs/inference.md`](docs/inference.md) for detailed, step-by-step
-instructions for running a trained model on the HiRES brain subset: preparing the
-RNA and Hi-C inputs, loading the weights, and running prediction and matching.
+See [`examples/inference/inference.md`](examples/inference/inference.md) for
+detailed, step-by-step instructions for running a trained model on the HiRES brain
+subset: preparing the RNA and Hi-C inputs, loading the weights, and running
+prediction and matching.
 
 In brief:
 
@@ -113,20 +114,24 @@ similarity, matches = model.match(rna, hic, direction="rna_to_hic")
 
 ## Training
 
-See [`docs/training.md`](docs/training.md) for detailed, step-by-step instructions
-for training scWeave from scratch: preparing datasets from source, building the
-training splits with `prepare_dataset`, and training the model with
-`train_translator`.
+See [`examples/training/training.md`](examples/training/training.md) for detailed,
+step-by-step instructions for training scWeave from scratch: preparing datasets
+from source, building the training splits with `prepare_dataset`, and training the
+model with `train_translator`.
 
 ---
 
 ## Examples
 
-End-to-end example notebooks will live in [`examples/`](examples):
-- [`examples/inference.ipynb`](examples/inference.ipynb) — load a trained model,
-  prepare inputs, and run prediction and cross-modal matching.
-- [`examples/training.ipynb`](examples/training.ipynb) — prepare a dataset and
-  train scWeave from scratch.
+Each example folder pairs a notebook with a written walkthrough:
+- [`examples/inference/`](examples/inference) — load a trained model, prepare
+  inputs, and run prediction and cross-modal matching
+  ([notebook](examples/inference/inference.ipynb),
+  [walkthrough](examples/inference/inference.md)).
+- [`examples/training/`](examples/training) — prepare a dataset and train scWeave
+  from scratch
+  ([notebook](examples/training/training.ipynb),
+  [walkthrough](examples/training/training.md)).
 
 Coming soon!
 
